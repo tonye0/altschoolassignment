@@ -6,10 +6,6 @@
   list-style-position: inside;
 }
 
-.border{
-  border: 2px solid blue;
-}
-
 header{
   margin-top: 10px;
 }
@@ -81,23 +77,13 @@ a.log-in{
 }
 
 .nav__item>.nav__link--btn{
-
-  width: 142px;
-  height: 44px;
+  color: #FFFFFF;
   background: #0065FE;
   border-radius: 100px;
   padding: 12px 24px 12px 24px;
   font-size: 16px;
   line-height: 12px;
   border-style: none;
-}
-
-.nav__link--btn a{
-  color: #FFFFFF;
-}
-
-a:hover{
-  text-decoration: underline;
 }
 
 
@@ -748,7 +734,7 @@ form p{
   flex-direction: column;
 }
 
-.section-6__container p{
+.section-6__container h3{
   font-family: 'Gilroy';
   font-weight: bold;
   font-style: normal;
