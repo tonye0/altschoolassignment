@@ -758,7 +758,6 @@ form p{
   align-self: center;
 }
 
-
 /* FOOTER SECTION */
 
 .footer{
@@ -772,7 +771,7 @@ form p{
 
 .footer__row{
   display: flex;
-  justify-content: space-between;
+  gap: 3em;
 }
 
 .contact{
@@ -789,9 +788,9 @@ form p{
 }
 
 .footer__navigation{
-  display: flex;
-  justify-content: space-between;
-  flex-basis: 75%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* grid-column-start: auto; */
 }
 
 .footer__navigation p{
@@ -844,9 +843,12 @@ form p{
   gap: 10px;
   margin-top: 2em
 }
-/* .footer__nav:nth-child(even){
-  margin-top: 2em;
-} */
+
+.copyright__nav--item-1::after, .copyright__nav--item-2::after{
+  content: url(../assets/imgs/line-thin.svg);
+  margin-left: 0.5em;
+}
+
 
 
 
